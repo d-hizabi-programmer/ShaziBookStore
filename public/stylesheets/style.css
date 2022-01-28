@@ -1,8 +1,20 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.headfonts {
+  font-family: "Della Respira", serif;
+  font-size: 2em;
+  /* color: #01161e; */
+  color: #661355;
+  letter-spacing: 0.1em;
+  /*  */
 }
 
-a {
-  color: #00B7FF;
+.parafonts {
+  font-family: "Open Sans", sans-serif;
+  /* color: #124559; */
+  color: #bd1e51;
+  font-weight: bold;
+}
+
+body {
+  /* background-color: #d3ded3; */
+  background-color: rgba(255, 255, 255, 0.404);
 }
