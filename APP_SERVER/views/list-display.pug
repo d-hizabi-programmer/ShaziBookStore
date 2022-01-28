@@ -1,9 +1,21 @@
 extends layout
 
-block content 
- h1  BOOK LIST 
- p Here is a list of BOOKS AVAILABLE:  
-    ul 
+
+block content
+ -var i=1
+  .cardContainer
     each book  in  bookList
-      li 
-        b  #{book.bookName} 
+     .smallCard.headfonts
+        -var srcImg=`/images/book${i++}.jpg`
+        img.smallCard-img(src=srcImg, alt=book.bookName)
+        .card-body
+          h4.headfonts #{book.bookName} 
+             p.parafonts.text-danger
+              b  #{book.bookAuther}           
+             p.parafonts.text-danger #{book.bookPrice}
+             p.parafonts.text-danger #{book.bookGenre}
+             p.parafonts.text-danger #{book.bookSrc}
+             //-  p.parafonts.text-danger #{book.bookDescription}
+              
+    //-  img.smallCard-img(src="/images/book1.jpg", alt=book.bookName)
+       

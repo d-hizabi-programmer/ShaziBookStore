@@ -7,12 +7,17 @@
   /* color: #01161e; */
   font-weight: bolder;
   color: #661355;
+  text-align: center;
   letter-spacing: 0.1em;
   /*  */
 }
 
 .parafonts {
   font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  color: #ff7009;
+  /* color: #a66142; */
   /* color: #bd1e51; */
 }
 
@@ -44,7 +49,6 @@ a.navbar-brand {
   background-color: #fff;
   text-decoration: underline;
   font-size: 1.1em;
-  background-color: #fff;
   /* border: 2px solid red; */
 }
 .container a:hover {
@@ -63,4 +67,59 @@ footer {
   text-align: right;
   padding: 1em;
   padding-right: 1.5em;
+}
+
+/* Index file design */
+.card {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  /* margin: 1em; */
+  /* border: 2px solid #eda776; */
+  padding: 2em;
+  margin: 0em 1em 0em 1em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0.1em 0.1em 0.1em #661355; */
+}
+.card-img {
+  height: fit-content;
+  width: 50%;
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.card-body p {
+  margin: 0.5em;
+}
+
+.cardContainer {
+  display: flex;
+  flex-basis: 1fr 1fr 1fr;
+  flex-direction: row;
+}
+
+.smallCard {
+  display: flex;
+  flex-direction: column;
+
+  width: 20%;
+  margin: 0.5em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.smallCard-img {
+  height: fit-content;
+  width: 100%;
+  /* height: 10em; */
+  height: max-content;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
+}
+
+.h4 p {
+  text-align: center;
 }
