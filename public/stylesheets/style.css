@@ -13,7 +13,6 @@
 
 .parafonts {
   font-family: "Open Sans", sans-serif;
-  color: #bd1e51;
   /* color: #bd1e51; */
 }
 
@@ -54,10 +53,14 @@ a.navbar-brand {
   font-size: 1.6em;
 }
 
-#navbar-main {
-  margin-right: auto;
-}
 #navbar-main ul {
   /* border: 2px solid red; */
-  margin-left: 3em;
+  /* margin-left: 2em; */
+  margin-right: 0em;
+}
+
+footer {
+  text-align: right;
+  padding: 1em;
+  padding-right: 1.5em;
 }
