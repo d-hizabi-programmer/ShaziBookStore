@@ -1,7 +1,11 @@
+* {
+  padding: 0em;
+  margin: 0em;
+}
 .headfonts {
   font-family: "Della Respira", serif;
-  font-size: 2em;
   /* color: #01161e; */
+  font-weight: bolder;
   color: #661355;
   letter-spacing: 0.1em;
   /*  */
@@ -9,12 +13,51 @@
 
 .parafonts {
   font-family: "Open Sans", sans-serif;
-  /* color: #124559; */
   color: #bd1e51;
-  font-weight: bold;
+  /* color: #bd1e51; */
 }
 
 body {
-  /* background-color: #d3ded3; */
-  background-color: rgba(255, 255, 255, 0.404);
+  background-color: #fff;
+  /* background-color: rgba(255, 255, 255, 0.404); */
+}
+
+/* navigation design */
+.navbar {
+  padding: 1em;
+  margin: 0em;
+}
+
+a.navbar-brand {
+  text-decoration: none;
+  font-size: 1.5em;
+
+  /* border: 2px solid red; */
+}
+
+.container {
+  margin-left: auto;
+  align-content: center;
+  /* border: 2px solid red; */
+}
+
+.navbar li a:hover {
+  background-color: #fff;
+  text-decoration: underline;
+  font-size: 1.1em;
+  background-color: #fff;
+  /* border: 2px solid red; */
+}
+.container a:hover {
+  /* border: 2px solid red; */
+  text-decoration: underline;
+  font-size: 1.6em;
+}
+
+#navbar-main {
+  margin-right: auto;
+}
+#navbar-main ul {
+  /* border: 2px solid red; */
+  margin-left: 3em;
 }
