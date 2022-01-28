@@ -1,0 +1,9 @@
+extends layout
+
+block content 
+ h1  BOOK LIST 
+ p Here is a list of BOOKS AVAILABLE:  
+    ul 
+    each book  in  bookList
+      li 
+        b  #{book.bookName} 
