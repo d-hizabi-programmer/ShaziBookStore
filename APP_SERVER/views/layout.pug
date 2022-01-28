@@ -2,11 +2,44 @@ doctype html
 html
   head
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title= "Food Application"
+    title= "SHAZI'S BOOK STORE"
+
     link(rel='stylesheet', href='/bootstrap/css/amelia.bootstrap.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect", href="https://fonts.gstatic.com")
+    link(href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&family=Open+Sans:wght@300;400;500;600;700&family=Six+Caps&display=swap" rel="stylesheet")
+    
+
+    
+
   body
+    .navbar.navbar-light.bg-dark 
+      .container
+        a.navbar-brand.headfonts(href="/") SHAZI'S BOOK STORE
+         button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        #navbar-main.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(href='/').headfonts HOME 
+            li
+              a(href='/about/').headfonts ABOUT 
+            li
+              a(href='/list/').headfonts BOOK-LIST 
+            li
+              a(href='/display/').headfonts DISPLAY 
+    
+    //-  
+    //-     .navbar-header
+    //-       a.navbar-brand(href='/') Loc8r
+    //-       
     block content
+ 
+
     
   script(src='/javascripts/jquery-1.11.1.min.js')
   script(src='/bootstrap/js/bootstrap.min.js')
