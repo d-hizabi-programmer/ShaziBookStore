@@ -6,9 +6,9 @@ const bookListArray = [
     bookAuther: "Leo Tolstoy",
     bookPrice: "$21.00",
     // bookDescription:
-      // "A legendary masterpiece, this book is synonymous with difficult reading, so why not challenge yourshelf.",
+    // "A legendary masterpiece, this book is synonymous with difficult reading, so why not challenge yourshelf.",
     bookGenre: "Novel",
-    bookSrc: "/images/book1.jpg",
+    // bookSrc: "/images/book1.jpg",
   },
   {
     bookName: "A Desolation Called Peace",
@@ -16,16 +16,16 @@ const bookListArray = [
     bookPrice: "$34.00",
     // bookDescription: "An incredible book by a beloved writer is a must read.",
     bookGenre: "Sci-Fi",
-    bookSrc: /images/book2.jpg,
+    // bookSrc: /images/book2.jpg,
   },
   {
     bookName: "If I Never Met You",
     bookAuther: "Mhairi McFarlane",
     bookPrice: "$24.74",
     // bookDescription:
-      // " One of Shondaland's 5 Must-Read Books for March and a Best Romance of 2020 ",
+    // " One of Shondaland's 5 Must-Read Books for March and a Best Romance of 2020 ",
     bookGenre: "Romance & Comedy",
-    bookSrc: /images/book3.jpg,
+    // bookSrc: /images/book3.jpg,
   },
   {
     bookName: "Harry Potter",
@@ -33,16 +33,16 @@ const bookListArray = [
     bookPrice: "$12.38",
     // bookDescription: " One of the best selling Book in the Era ",
     bookGenre: "Adventure Fiction",
-    bookSrc: /images/book4.jpg,
+    // bookSrc: /images/book4.jpg,
   },
   {
     bookName: "A Thousands Ships",
     bookAuther: "Natalie Haynes",
     bookPrice: "$22.09",
     // bookDescription:
-      // "Go on an adventure this year with this thrilling fantasy tale.",
+    // "Go on an adventure this year with this thrilling fantasy tale.",
     bookGenre: "Historical Fiction",
-    bookSrc: "/images/book5.jpg",
+    // bookSrc: "/images/book5.jpg",
   },
 ];
 
