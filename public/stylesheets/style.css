@@ -123,3 +123,24 @@ footer {
 .h4 p {
   text-align: center;
 }
+
+.noDecor {
+  text-align: left;
+  list-style-type: none;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+p.headfonts {
+  font-size: 0.6em;
+}
+.left {
+  text-align: left;
+  line-height: normal;
+  padding: 0.2em;
+}
+
+.justify {
+  text-align: justify;
+  line-height: normal;
+  padding: 0.2em;
+}
