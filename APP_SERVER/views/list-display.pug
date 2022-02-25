@@ -2,19 +2,37 @@ extends layout
 
 
 block content
- -var i=1
-  .cardContainer
-    each book  in  bookList
-     .smallCard.headfonts
-        -var srcImg=`/images/book${i++}.jpg`
-        img.smallCard-img(src=srcImg, alt=book.bookName)
+      .card.border-danger
+        //- img.card-img(src="/images/contact.jpg", alt="Ancient Books")
         .card-body
-          h4.headfonts #{book.bookName} 
-             p.parafonts.text-danger
-              b  #{book.bookAuther}           
-             p.parafonts.text-danger #{book.bookPrice}
-             p.parafonts.text-danger #{book.bookGenre}
-             p.parafonts.text-danger #{book.bookSrc}
+          h4.headfonts SHAZI'S BOOK STORE HAS FOLLWOING COLLECTION FOR YOU...
+            ul.headfonts
+              li
+              //- blockquote 
+              //-  p.parafonts.text-danger Shazi's Book Store is an onlie store having vast collection of books. We have been in Canada since 1940s satsifyig numerous customers
+              //-  h4.headfonts ADDRESS 
+              //-  p.parafonts.text-danger  ON: 7315 Edmonds St #101,Ontario-V3N 1A7
+              //-  p.parafonts.text-danger BC: 7315 Edmonds St #101,Ontario-V3N 1A7
+              //-  h4.headfonts E-MAIL 
+              //-  p.parafonts.text-danger shazisbookstore@gmail.com
+              //-  p.parafonts.text-danger contactus@shazisbookstore.ca
+              //-  h4.headfonts CONTACT 
+              //-  p.parafonts.text-danger +1 (604) 524-9280
+              //-  p.parafonts.text-danger +1 (614) 524-9867
+
+//-  -var i=1
+//-   .cardContainer
+//-     each book  in  bookList
+//-      .smallCard.headfonts
+//-         -var srcImg=`/images/book${i++}.jpg`
+//-         img.smallCard-img(src=srcImg, alt=book.bookName)
+//-         .card-body
+//-           h4.headfonts #{book.bookName} 
+//-              p.parafonts.text-danger
+//-               b  #{book.bookAuther}           
+//-              p.parafonts.text-danger #{book.bookPrice}
+//-              p.parafonts.text-danger #{book.bookGenre}
+//-              p.parafonts.text-danger #{book.bookSrc}
              //-  p.parafonts.text-danger #{book.bookDescription}
               
     //-  img.smallCard-img(src="/images/book1.jpg", alt=book.bookName)
